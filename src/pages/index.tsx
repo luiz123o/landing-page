@@ -1,5 +1,9 @@
-import Main from 'components/Main'
+import PanelContent from 'templates/PanelContent'
 
 export default function Home() {
-  return <Main />
+  return (
+    <PanelContent>
+      <div>há construir</div>
+    </PanelContent>
+  )
 }
